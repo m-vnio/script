@@ -112,7 +112,7 @@
 
         const consolog = (text) => {
 
-            if (text) return
+            if (!text) return
 
             const p = document.createElement('p')
             p.textContent = text
